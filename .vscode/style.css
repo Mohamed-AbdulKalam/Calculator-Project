@@ -1,0 +1,68 @@
+body{
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    padding: 10px;
+    font-size: 40px;
+    font-weight: 300;
+    
+}
+
+#output{
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 15px;
+}
+
+
+
+.btn{
+    flex-basis: calc(25% - 10px);
+    margin: 4px;
+    font-size: 32px;
+    height: 72px;
+    border: 0;
+    border-radius: 24px;
+    cursor: pointer;
+    color: white;
+    
+}
+
+.light,
+.light:focus{
+    background-color:rgb(129, 92, 159)
+    
+}
+
+.light:hover{
+    background-color: rgb(59, 62, 98);
+}
+
+.blue,
+.blue:focus{
+    background-color:rgb(39, 87, 199)
+}
+
+.blue:hover{
+    background-color: rgb(23, 91, 99);
+}
+
+.dark,
+.dark:focus{
+    background-color: rgb(15, 25, 54)
+}
+
+.dark:hover{
+    background-color: rgb(71, 52, 89);
+}
